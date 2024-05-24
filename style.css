@@ -91,3 +91,14 @@ iframe{
   outline: none;
   border: none;
 }
+#error{
+  display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 450px){
+  #hero{
+    display: none;
+  }
+  #error{
+    display: block;
+  }
+}
