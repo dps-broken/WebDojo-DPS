@@ -25,7 +25,8 @@ tl.from("#move1",{
 })
 tl.from("#move2",{
     y:-200,
-    scale:0.5
+    scale:0.5,
+   
 })
 tl.from("#Output",{
     x:1200,
@@ -35,6 +36,7 @@ tl.from(".text-area-class",{
 })
 tl.from(".hadding",{
     x:-200,
-    scale:0.5
+    scale:0.5,
+    rotate:"60deg"
 })
 
